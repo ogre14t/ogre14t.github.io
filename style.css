@@ -5,6 +5,7 @@
 body, html {
   background-color: black;
   color: #E8E8E8;
+  overflow-x: hidden;
 }
 
 .page {
