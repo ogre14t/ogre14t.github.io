@@ -8,7 +8,7 @@ body, html {
 }
 
 .page {
-  height: 110vh;
+  height: 100%;
   width: auto;
   padding-top: 5%;
 }
@@ -102,7 +102,9 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   transition: all 0.3s;
   position: relative;
 }
@@ -143,7 +145,9 @@ nav {
   color: #E8E8E8;
   background: #4e4e4e;
   background: -webkit-repeating-linear-gradient(left top, black, #646464, black);
-  height: auto;
+  height: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 #aboutContent {
@@ -200,7 +204,9 @@ li p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 110vh;
+  height: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   transition: all 0.3s;
   position: relative;
 }
@@ -230,7 +236,9 @@ li p {
   color: #E8E8E8;
   background: #4e4e4e;
   background: -webkit-repeating-linear-gradient(top, black, #646464, black);
-  height: 100vh;
+  height: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 #contactContent {
@@ -307,7 +315,7 @@ textarea {
   color: white;
   background-color: black;
   border-radius: 5px;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: .3em;
   letter-spacing: 1em;
   font-family: 'Julius Sans One', sans-serif;
@@ -320,10 +328,8 @@ textarea {
 /* NOTE: footer */
 
 #footer {
-  margin-top: 5em;
   padding-top: 2em;
   padding-bottom: 2em;
-  display: inline;
   text-align: center;
   background-color: black;
   border-top: 2px solid white;
