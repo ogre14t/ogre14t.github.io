@@ -1,11 +1,16 @@
 /* NOTE: Imports */
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Jura|Julius+Sans+One');
-@import url('http://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto|Play');
+
 /* NOTE: body styling */
 body, html {
   background-color: black;
   color: #E8E8E8;
   overflow-x: hidden;
+  background-image: url(././images/forest2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .page {
@@ -16,23 +21,20 @@ body, html {
 
 h2 {
   font-size: 5em;
-  font-family: 'Julius Sans One', sans-serif;
-  text-shadow: 5px 5px 10px black;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   padding-top: 1em;
 }
 
 h3 {
   font-size: 3em;
-  font-family: 'Jura', sans-serif;
-  text-shadow: 5px 5px 10px black;
+  font-family: 'Nunito', sans-serif;
   margin-bottom: 2em;
 }
 
 h4 {
   font-size: 2em;
-  font-family: 'Jura', sans-serif;
-  text-shadow: 5px 5px 10px black;
+  font-family: 'Nunito', sans-serif;
   text-align: center;
   padding-top: 1em;
   color: white;
@@ -41,12 +43,12 @@ h4 {
 
 h6 {
   font-size: 1em;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: .5em;
 }
 
 p {
-  font-family: 'Jura', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1.3em;
   text-indent: 30px;
 }
@@ -67,26 +69,26 @@ i h4 {
 }
 /* NOTE: Navbar */
 nav {
-  font-family: 'Jura', sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: .5em;
-
 }
 
 .navbar-inverse {
   border-radius: 0;
   box-shadow: 5px 5px 10px black;
-  background-color: rgba(25, 25, 25, 0.67);
+  background-color: rgba(25, 25, 25, 0.8);
   animation-delay: 1.5s;
 }
 
 .navName {
   font-size: 2em;
   padding-left: 2em;
-  font-family: 'Julius Sans One', cursive;
+  font-family: 'Play', sans-serif;
 }
 
 #mainNav li {
   margin-right: 2em;
+  font-size: 1.2em;
 }
 
 #mainNav li:hover {
@@ -98,11 +100,6 @@ nav {
 
 #home {
   overflow: hidden;
-  background-image: url(././images/night.jpeg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100%;
   padding-top: 10%;
   padding-bottom: 10%;
@@ -116,26 +113,24 @@ nav {
   padding: 3em 3em;
   float: none;
   margin: 0 auto;
-  margin-top: 15%;
-  text-shadow: 5px 5px 10px black;
+  margin-top: 10%;
+  padding-bottom: 10%;
 }
 
 .logo h1 {
   font-size: 6em;
-  font-family: 'Great Vibes', cursive;
-  text-shadow: 5px 5px 10px black;
+  font-family: 'Play', sans-serif;
   animation-delay: 0.4s;
 }
 
 .logo h3 {
   font-size: 2em;
-  font-family: 'Jura', sans-serif;
+  font-family: 'Nunito', sans-serif;
   letter-spacing: .8em;
   animation-delay: 0.4s;
 }
 
 .logo hr {
-  box-shadow: 5px 5px 10px black;
   animation-delay: 0.4s;
 }
 
@@ -144,11 +139,11 @@ nav {
 #about {
   text-align: center;
   color: #E8E8E8;
-  background: #4e4e4e;
-  background: -webkit-repeating-linear-gradient(left top, black, #646464, black);
+  background-color: rgba(42, 65, 0, 0.6);
   height: 100%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 15%;
+  border-top: 2px solid white;
 }
 
 #aboutContent {
@@ -156,10 +151,9 @@ nav {
 }
 
 #skills {
-  border: 2px solid black;
-  color: black;
-  background: rgba(232, 232, 232, 0.9);
+  color: white;
   margin-bottom: 10em;
+  padding: 0 5em;
 }
 
 .content {
@@ -168,13 +162,12 @@ nav {
 
 .whoAmI {
   text-align: left;
-  padding: 0 1em;
-  text-shadow: 4px 4px 10px black;
+  padding: 0 5em;
 }
 
 .fa {
   display: inline-block;
-  padding-right: 2em;
+  margin-right: 1em;
 }
 
 .inlineSkills {
@@ -183,12 +176,13 @@ nav {
   list-style-type: none;
   padding-bottom: 2em;
   text-align: left;
-
+  text-transform: uppercase;
+  line-height: 2em;
 }
 
 li p {
   letter-spacing: 1em;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1em;
 }
@@ -200,16 +194,11 @@ li p {
 /* NOTE: portfolio */
 
 #port {
-  background-color: black;
-  background-image: url(././images/moon.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 15%;
   transition: all 0.3s;
+  background-color: rgba(42, 65, 0, 0.6);
   position: relative;
 }
 
@@ -219,14 +208,12 @@ li p {
   padding-right: 3em;
 }
 
-#portSites {
+.portSites {
   border: 2px solid black;
 }
 
 #portText {
-  border: 2px solid black;
-  color: black;
-  background: rgba(232, 232, 232, 0.9);
+  color: white;
   font-size: 1em;
   padding: 3.85em;
 }
@@ -236,11 +223,10 @@ li p {
 #contact {
   text-align: center;
   color: #E8E8E8;
-  background: #4e4e4e;
-  background: -webkit-repeating-linear-gradient(top, black, #646464, black);
+  background-color: rgba(42, 65, 0, 0.6);
   height: 100%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 15%;
 }
 
 #contactContent {
@@ -317,10 +303,10 @@ textarea {
   color: white;
   background-color: black;
   border-radius: 5px;
-  font-size: .8em;
+  font-size: 1.1em;
   margin-bottom: .3em;
   letter-spacing: 1em;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .social:hover {
@@ -333,13 +319,15 @@ textarea {
   padding-top: 2em;
   padding-bottom: 2em;
   text-align: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, .85);
   border-top: 2px solid white;
+  width: 100%;
+  align-items: center;
 }
 
 h5 {
-  letter-spacing: 1em;
-  font-family: 'Jura', sans-serif;
+  letter-spacing: .5em;
+  font-family: 'Nunito', sans-serif;
   padding: .3em;
 }
 
