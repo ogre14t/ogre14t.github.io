@@ -5,6 +5,7 @@
 body, html {
   background-color: black;
   color: #E8E8E8;
+  margin: 0;
   overflow-x: hidden;
   background-image: url(././images/forest2.jpg);
   background-attachment: fixed;
@@ -34,10 +35,10 @@ h3 {
 
 h4 {
   font-size: 2em;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
-  padding-top: 1em;
-  color: white;
+  padding-top: 0;
+  color: #31BE31;
   font-weight: 600;
 }
 
@@ -209,13 +210,32 @@ li p {
 }
 
 .portSites {
-  border: 2px solid black;
+  border: 2px solid white;
 }
 
 #portText {
   color: white;
-  font-size: 1em;
+  font-size: 1.3em;
   padding: 3.85em;
+}
+
+button.btn-success {
+  color: white;
+  margin: 0;
+  padding: .7em 1em;
+  text-align: center;
+  text-indent: 0;
+  border: .3px solid white;;
+}
+
+.navBtn {
+  text-indent: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-success p:hover {
+  color: white;
 }
 
 /* NOTE: Contact page */
@@ -270,7 +290,7 @@ textarea {
 }
 
 [type="submit"] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-family: 'Play', Arial, Helvetica, sans-serif;
   width: 100%;
   background: black;
   border-radius:5px;
@@ -306,7 +326,9 @@ textarea {
   font-size: 1.1em;
   margin-bottom: .3em;
   letter-spacing: 1em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Play', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .social:hover {
@@ -322,7 +344,6 @@ textarea {
   background-color: rgba(0, 0, 0, .85);
   border-top: 2px solid white;
   width: 100%;
-  align-items: center;
 }
 
 h5 {
