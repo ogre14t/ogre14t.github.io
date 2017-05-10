@@ -3,8 +3,8 @@
 
 /* NOTE: body styling */
 body, html {
-  background-color: black;
-  color: #E8E8E8;
+  background-color: #222;
+  color: #222;
   margin: 0;
   overflow-x: hidden;
   background-image: url(././images/forest2.jpg);
@@ -38,7 +38,7 @@ h4 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   padding-top: 0;
-  color: #31BE31;
+  color: #222;
   font-weight: 600;
 }
 
@@ -61,7 +61,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: black;
+  color: #222;
   transition: all 0.3s;
 }
 
@@ -76,7 +76,7 @@ nav {
 
 .navbar-inverse {
   border-radius: 0;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px #222;
   background-color: rgba(25, 25, 25, 0.8);
   animation-delay: 1.5s;
 }
@@ -93,7 +93,7 @@ nav {
 }
 
 #mainNav li:hover {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #ccc;
   transition: all 0.8s;
 }
 
@@ -139,12 +139,12 @@ nav {
 
 #about {
   text-align: center;
-  color: #E8E8E8;
-  background-color: rgba(42, 65, 0, 0.6);
+  color: #222;
+  background-color: #ddd;
   height: 100%;
   padding-top: 5%;
   padding-bottom: 15%;
-  border-top: 2px solid white;
+  border-top: 2px solid #ccc;
 }
 
 #aboutContent {
@@ -152,7 +152,7 @@ nav {
 }
 
 #skills {
-  color: white;
+  color: #222;
   margin-bottom: 10em;
   padding: 0 5em;
 }
@@ -200,7 +200,7 @@ li p {
   padding-top: 5%;
   padding-bottom: 15%;
   transition: all 0.3s;
-  background-color: rgba(42, 65, 0, 0.6);
+  background-color: #eee;
   position: relative;
 }
 
@@ -211,22 +211,23 @@ li p {
 }
 
 .portSites {
-  border: 2px solid white;
+  border: 2px solid #ccc;
 }
 
 #portText {
-  color: white;
+  color: #222;
   font-size: 1.3em;
   padding: 3.85em;
 }
 
-button.btn-success {
-  color: white;
+button.btn-default {
+  color: #ccc;
   margin: 0;
   padding: .7em 1em;
   text-align: center;
   text-indent: 0;
-  border: .3px solid white;;
+  border: .3px solid #ccc;
+  background-color: #222;
 }
 
 .navBtn {
@@ -235,16 +236,16 @@ button.btn-success {
   padding: 0;
 }
 
-.btn-success p:hover {
-  color: white;
+.btn-default p:hover {
+  color: #222;
 }
 
 /* NOTE: Contact page */
 
 #contact {
   text-align: center;
-  color: #E8E8E8;
-  background-color: rgba(42, 65, 0, 0.6);
+  color: #222;
+  background-color: #ccc;
   height: 100%;
   padding-top: 5%;
   padding-bottom: 15%;
@@ -262,14 +263,14 @@ form { max-width:420px;
 
 
 .feedback-input {
-  color:white;
+  color: #ccc;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid black;
+  border:2px solid #222;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -279,9 +280,9 @@ form { max-width:420px;
 }
 
 .feedback-input:focus {
-  border:2px solid white;
+  border:2px solid #ccc;
   box-shadow: 4px 4px 10px black;
-  background: black;
+  background: #222;
 }
 
 textarea {
@@ -293,11 +294,11 @@ textarea {
 [type="submit"] {
   font-family: 'Play', Arial, Helvetica, sans-serif;
   width: 100%;
-  background: black;
+  background: #222;
   border-radius:5px;
   border:0;
   cursor:pointer;
-  color:white;
+  color: #ccc;
   font-size:24px;
   padding-top:10px;
   padding-bottom:10px;
@@ -307,7 +308,7 @@ textarea {
 }
 [type="submit"]:hover {
   background: #E8E8E8;
-  color: black;
+  color: #222;
   box-shadow: 4px 4px 10px black;
 }
 
@@ -342,8 +343,8 @@ textarea {
   padding-top: 2em;
   padding-bottom: 2em;
   text-align: center;
-  background-color: rgba(0, 0, 0, .85);
-  border-top: 2px solid white;
+  background-color: black;
+  border-top: 2px solid #ccc;
   width: 100%;
 }
 
@@ -351,6 +352,7 @@ h5 {
   letter-spacing: .5em;
   font-family: 'Nunito', sans-serif;
   padding: .3em;
+  color: #ccc;
 }
 
 /* NOTE: end */
