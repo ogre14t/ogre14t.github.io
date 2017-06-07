@@ -203,7 +203,7 @@ p{
 }
 
 /* NOTE: for full screen */
-@media (min-width: 600px) {
+@media (min-width: 500px) {
 
   h5{
     font-size: 1.3em;
