@@ -1,0 +1,251 @@
+/* NOTE:  blue - #3b84f9
+          yellow - #d8d102
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p::first-letter{
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+p{
+  word-spacing: .1em;
+  line-height: 2em;
+}
+
+.line{
+  width: 50%;
+}
+
+/* NOTE: home */
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background: url("images/city.jpg");
+  height: 100vh;
+  color: white;
+  font-family: monospace;
+}
+
+.mainLogo{
+  text-align: center;
+  text-shadow: 0 4px 6px black;
+}
+
+#home h1 {
+  font-size: 3em;
+}
+
+#home h2{
+  font-size: 1em;
+  letter-spacing: 2em;
+}
+
+/* NOTE: About me */
+
+#about{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  justify-content: center;
+  height: 100%;
+}
+
+.mePic{
+  flex: 1;
+  padding: 2em 6em;
+  justify-content: center;
+}
+
+.mePic img{
+  width: 100%;
+  height: auto;
+  border-radius: .5em;
+  box-shadow: 8px 8px 14px black;
+  max-width: 300px;
+  min-width: 180px;
+}
+
+.meBio{
+  flex: 2;
+  padding: 2em 6em;
+  text-align: center;
+  min-width: 280px;
+}
+
+.meBio h2{
+  text-align: center;
+}
+
+/* NOTE: portfolio */
+#port{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #3b84f9;
+  color: white;
+}
+
+#port h2, h5{
+  text-align: center;
+  padding-bottom: .3em;
+}
+
+.portMain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 5em;
+}
+
+.item1{
+  flex: 1;
+  flex-grow: 1;
+  max-width: 300px;
+  border: 1px solid white;
+  padding: .5em;
+  margin:.2em;
+}
+
+.item2{
+  flex: 2;
+  flex-grow: 1;
+  max-width: 300px;
+  border: 1px solid white;
+  padding: .5em;
+  margin:.2em;
+}
+
+.item3{
+  flex: 3;
+  flex-grow: 1;
+  max-width: 300px;
+  border: 1px solid white;
+  padding: .5em;
+  margin:.2em;
+}
+
+.portSocial{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.social a{
+  color: white;
+  border-radius: 1%;
+  border: 1px solid white;
+  font-size: 2.5em;
+  padding: .3em;
+}
+
+.social a:hover{
+  background: white;
+  color: #3b84f9;
+}
+
+/* NOTE: contact */
+
+#contact {
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  padding: 2em;
+}
+
+#contact h1{
+  font-size: 2em;
+}
+
+.contactLinks{
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 5em;
+}
+
+.social2 a{
+  border-radius: 1%;
+  border: 1px solid black;
+  font-size: 2.5em;
+  padding: .3em;
+  color: black;
+}
+
+.social2 a:hover{
+  background: #3b84f9;
+  color: white;
+}
+
+/* NOTE: footer */
+
+#footer {
+  font-size: 1.5em;
+  color: white;
+  background: #3b84f9;
+  text-align: center;
+  padding: .1em;
+  word-spacing: .2em;
+}
+
+/* NOTE: for full screen */
+@media (min-width: 600px) {
+
+  h5{
+    font-size: 1.3em;
+  }
+
+  .mePic img{
+    width: 80%;
+    height: auto;
+  }
+
+  .mePic{
+    padding-left: 10em;
+  }
+
+  .meBio{
+    padding: 0 15em;
+    text-align: left;
+  }
+
+  p{
+    word-spacing: .3em;
+  }
+
+  #home h1 {
+    font-size: 6em;
+  }
+
+  #home h2{
+    font-size: 3em;
+    letter-spacing: .7em;
+  }
+
+  #port h2{
+    font-size: 2.5em;
+  }
+
+  #contact h1{
+    font-size: 3em;
+  }
+
+  #contact h4{
+    font-size: 1.3em;
+  }
+
+}
